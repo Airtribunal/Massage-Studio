@@ -58,7 +58,7 @@ a {
     max-width: 1200px;
     margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-column-gap: 1.8rem;
     grid-row-gap: 2rem;
     flex: 1 1 0;
