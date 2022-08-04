@@ -1,0 +1,149 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap');
+
+/* General */
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+
+
+/* Logo */
+
+.logo__text {
+    margin-top: 5px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.logo__title {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.logo__name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .82em;
+}
+
+.logo__desc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .82em;
+}
+
+/* links */
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainmenu {
+    margin-right: -15em;
+}
+
+/* Services */
+.service__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-column-gap: 1.8rem;
+    grid-row-gap: 2rem;
+    flex: 1 1 0;
+}
+
+.service__card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3px;
+    background-color: #fafafa;
+    border-radius: 7px 7px;
+    transition: transform .3s ease-in, box-shadow .3s ease-in
+        /*, border-bottom .2s ease-in*/
+    ;
+}
+
+.service__card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translate3d(0, -8px, 0);
+
+    /* border-bottom: 1.5px solid #c5353b;  */
+}
+
+.service__img {
+    border-radius: 7px 7px 0 0;
+}
+
+.service__content {
+    display: flex;
+    flex-direction: column;
+}
+
+#service-divider {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: .25em;
+}
+
+.service__title {
+    padding: .5em 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+
+.service__desc {
+    margin-left: 1em;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service__price {
+    margin-top: 1em;
+    padding-bottom: 1em;
+    padding-right: auto;
+    padding-left: 1em;
+
+    color: #323232;
+    /* position: absolute;
+    bottom: 1em;
+    right: 1.5em; */
+
+    font-size: 1.80rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+review-lab {
+    margin: 30px;
+    background-color: #fff;
+}
+
+.widget__src--mobile {
+    opacity: 0;
+}
+
+.widget__src--desktop {
+    opacity: 0;
+}
+
+.intro-layer h3 {
+    line-height: 1.05;
+}
+
+.widget__count span {
+    opacity: 0;
+}
