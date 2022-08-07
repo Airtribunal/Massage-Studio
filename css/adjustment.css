@@ -9,13 +9,21 @@ h3,
 h4,
 h5,
 h6 {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Container */
+/* Container */ 
 
+/* html {
+    transition: all .3s ease-in;
+    scroll-behavior: smooth;
+} */
 
+.sf-more-hidden a{
+    scroll-behavior: smooth;
+}
 /* Logo */
 
 .logo__text {

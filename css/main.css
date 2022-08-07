@@ -6843,8 +6843,8 @@ body:after {
 body,
 body:after,
 .page_header_side {
-    -webkit-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 
 body {
@@ -7843,20 +7843,24 @@ body.active-side-header.slide-right .page_header_side {
 
     .sf-menu li:hover>ul,
     .sf-menu li.sfHover>ul {
-        display: block
+        display: block;
+        scroll-behavior: smooth;
     }
 
     .sf-menu a {
+        scroll-behavior: smooth;
         display: block;
         position: relative
     }
 
     .sf-menu li>ul>li>ul {
+        scroll-behavior: smooth;
         top: -10px;
         left: 100%
     }
 
     .sf-menu a {
+        scroll-behavior: smooth;
         padding-top: 7px;
         padding-bottom: 6px;
         text-decoration: none;
@@ -7866,6 +7870,8 @@ body.active-side-header.slide-right .page_header_side {
     }
 
     .sf-menu li {
+        scroll-behavior: smooth;
+
         white-space: nowrap;
         *white-space: normal;
         -webkit-transition: background .2s;
@@ -7873,12 +7879,16 @@ body.active-side-header.slide-right .page_header_side {
     }
 
     .sf-menu>li {
+        scroll-behavior: smooth;
+
         display: inline-block;
         position: relative;
         margin: 0 -2px
     }
 
     .sf-menu>li>a {
+        scroll-behavior: smooth;
+
         padding-top: 37px;
         padding-bottom: 36px;
         padding-right: 0;
@@ -7889,6 +7899,7 @@ body.active-side-header.slide-right .page_header_side {
 
     .sf-menu>li>a:hover,
     .sf-menu>li.active>a {
+        
         color: #c5353b;
         border-color: #c5353b
     }
@@ -7935,17 +7946,20 @@ body.active-side-header.slide-right .page_header_side {
 
     .header_gradient .sf-menu>li>a:hover,
     .header_gradient .sf-menu>li.active>a {
-        color: #323232
+        color: #323232;
+        scroll-behavior: smooth;
     }
 
     .sf-menu li:hover,
     .sf-menu li.sfHover {
+        scroll-behavior: smooth;
         -webkit-transition: none;
         transition: none
     }
 
     .sf-menu>li .mega-menu,
     .sf-menu li>ul {
+        scroll-behavior: smooth;
         margin-top: 10px;
         text-align: left;
         list-style: none;

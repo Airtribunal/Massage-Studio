@@ -7250,7 +7250,6 @@ if ("undefined" == typeof jQuery)
   }),
     (e.fn.superfish.defaults = {
       popUpSelector: "ul,.sf-mega",
-      hoverClass: "sfHover",
       pathClass: "overrideThisToUse",
       pathLevels: 1,
       delay: 800,
