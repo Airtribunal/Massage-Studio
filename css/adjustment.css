@@ -76,6 +76,17 @@ a {
     ;
 }
 
+.service__price {
+    color: #323232;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+
+    font-size: 1.80rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .service__card:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: translate3d(0, -8px, 0);
@@ -88,6 +99,7 @@ a {
 }
 
 .service__content {
+    height: 490px;
     display: flex;
     flex-direction: column;
 }
@@ -106,24 +118,9 @@ a {
 }
 
 .service__desc {
+    padding: 0 .25em;
     margin-left: 1em;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.service__price {
-    margin-top: 1em;
-    padding-bottom: 1em;
-    padding-right: auto;
-    padding-left: 1em;
-
-    color: #323232;
-    /* position: absolute;
-    bottom: 1em;
-    right: 1.5em; */
-
-    font-size: 1.80rem;
-    font-weight: 700;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -176,4 +173,24 @@ review-lab {
 
 .gallery__card:hover .gallery__img {
     opacity: .15;
+}
+
+
+/* MEDIA */
+@media (max-width: 1200px) {
+    .service__desc {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .service__desc {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .service__desc {
+        font-size: 1.5rem;
+    }
 }
