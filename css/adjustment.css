@@ -9,21 +9,23 @@ h3,
 h4,
 h5,
 h6 {
+    scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Container */ 
+/* Container */
 
 /* html {
     transition: all .3s ease-in;
     scroll-behavior: smooth;
 } */
 
-.sf-more-hidden a{
+.sf-more-hidden a {
     scroll-behavior: smooth;
 }
+
 /* Logo */
 
 .logo__text {
@@ -75,7 +77,7 @@ a {
 .service__card {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 42em;
     margin-bottom: 3px;
     background-color: #fafafa;
     border-radius: 7px 7px;
