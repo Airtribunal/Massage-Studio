@@ -79,7 +79,7 @@ a {
     width: 100%;
     height: 42em;
     margin-bottom: 3px;
-    background-color: #fafafa;
+    background-color: #fbfbfb;
     border-radius: 7px 7px;
     transition: transform .3s ease-in, box-shadow .3s ease-in
         /*, border-bottom .2s ease-in*/
@@ -203,4 +203,8 @@ review-lab {
     .service__desc {
         font-size: 1.5rem;
     }
+}
+
+.eapps-widget:hover .eapps-widget-toolbar {
+    opacity: 0;
 }
