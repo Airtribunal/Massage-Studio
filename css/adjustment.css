@@ -81,7 +81,7 @@ a {
     margin-bottom: 3px;
     background-color: #fbfbfb;
     border-radius: 7px 7px;
-    transition: transform .3s ease-in, box-shadow .3s ease-in
+    transition: transform .25s ease-in, box-shadow .3s ease-in
         /*, border-bottom .2s ease-in*/
     ;
 }
