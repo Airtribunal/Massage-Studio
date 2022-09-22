@@ -205,6 +205,12 @@ review-lab {
     }
 }
 
+@media (max-width: 320px) {
+    .service__card {
+        height: 48em;
+    }
+}
+
 .eapps-widget:hover .eapps-widget-toolbar {
     opacity: 0;
 }
